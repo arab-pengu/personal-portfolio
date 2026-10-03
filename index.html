@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saheba Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#home">🌱 Saheba</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <img src="images/h1.png" alt="Second assignment image" class="home-image">
+
+        <div class="home-content">
+            <h1>
+                <span>Hi,</span>
+                <span>I'm Saheba Aijaz</span>
+            </h1>
+
+            <p class="computer-science">Computer Science Student</p>
+
+            <p class="final-year">currently in final year of Engineering</p>
+
+            <a href="#about" class="btn">About Me</a>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+
+        <p>
+            Final year of engineering has been challenging from the very beginning. I am currently working on my final year project, internship report and academics simultaneously. Through this I am learning how to handle multiple tasks at the same time.
+        </p>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education</h2>
+
+        <div class="education-timeline">
+
+            <div class="education-item">
+                <button class="education-flower" type="button" data-bs-toggle="collapse" data-bs-target="#schoolDetails" aria-expanded="false" aria-controls="schoolDetails">
+                    🌸
+                </button>
+
+                <div id="schoolDetails" class="collapse education-details">
+                    <h3>School</h3>
+                    <p><strong>New Middle East International School</strong></p>
+                    <p>Board: CBSE</p>
+                    <p>Riyadh, Saudi Arabia</p>
+                    <p>Nursery - 10th Grade</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <button class="education-flower" type="button" data-bs-toggle="collapse" data-bs-target="#intermediateDetails" aria-expanded="false" aria-controls="intermediateDetails">
+                    🌼
+                </button>
+
+                <div id="intermediateDetails" class="collapse education-details">
+                    <h3>Intermediate</h3>
+                    <p><strong>Stanley Jr. College</strong></p>
+                    <p>Board: TSBIE</p>
+                    <p>Hyderabad, Telangana, India</p>
+                    <p>11th - 12th Grade</p>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <button class="education-flower" type="button" data-bs-toggle="collapse" data-bs-target="#collegeDetails" aria-expanded="false" aria-controls="collegeDetails">
+                    🌻
+                </button>
+
+                <div id="collegeDetails" class="collapse education-details">
+                    <h3>College</h3>
+                    <p><strong>Stanley College and Engineering College for Women</strong></p>
+                    <p>Department: CSE</p>
+                    <p>Hyderabad, Telangana, India</p>
+                    <p>2023 - 2027</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <p>Java, C, Python</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h3>Database</h3>
+                    <p>SQL</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="skill-card">
+                    <h3>AI & Machine Learning</h3>
+                    <p>Machine Learning, Deep Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <article class="project-card">
+                    <h3>Safety Helmet Detection</h3>
+                    <span class="badge">Currently Working On</span>
+                    <p>
+                        A deep learning project for detecting whether safety helmets
+                        are being worn in workplace environments.
+                    </p>
+                    <span class="badge">YOLO</span>
+                    <span class="badge">Python</span>
+                    <span class="badge">Deep Learning</span>
+                </article>
+            </div>
+
+            <div class="col-md-6">
+                <article class="project-card">
+                    <h3>Credit Risk Prediction</h3>
+                    <p>
+                        A machine learning project that predicts credit risk for
+                        loan applicants using different classification models.
+                    </p>
+                    <span class="badge">Python</span>
+                    <span class="badge">Machine Learning</span>
+                    <span class="badge">XGBoost</span>
+                </article>
+            </div>
+
+            <div class="col-md-6">
+                <article class="project-card">
+                    <h3>EduServe</h3>
+                    <p>
+                        A smart student service system designed to manage student
+                        document requests and approval processes.
+                    </p>
+                    <span class="badge">React</span>
+                    <span class="badge">Firebase</span>
+                    <span class="badge">Node.js</span>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="certificates" class="container">
+        <h2>Certificates</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+    <article class="certificate-card">
+        <img src="images/certificate1.png" alt="Certificate 1" data-bs-toggle="modal" data-bs-target="#certificateModal1">
+    </article>
+</div>
+
+            <div class="col-md-4">
+                <article class="certificate-card">
+                    <img src="images/certificate2.png" alt="Certificate 2" data-bs-toggle="modal" data-bs-target="#certificateModal2">
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="certificate-card">
+                    <img src="images/certificate3.png" alt="Certificate 3" data-bs-toggle="modal" data-bs-target="#certificateModal3">
+                </article>
+            </div>
+
+        </div>
+        <div class="modal fade" id="certificateModal1" tabindex="-1" aria-labelledby="certificateModalLabel1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="certificateModalLabel1">Certificate 1</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="images/certificate1.png" alt="Certificate 1" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="certificateModal2" tabindex="-1" aria-labelledby="certificateModalLabel2" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="certificateModalLabel2">Certificate 2</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="images/certificate2.png" alt="Certificate 2" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="certificateModal3" tabindex="-1" aria-labelledby="certificateModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="certificateModalLabel3">Certificate 3</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="images/certificate3.png" alt="Certificate 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+
+            <div id="formMessage" role="alert"></div>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Saheba Aijaz. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
